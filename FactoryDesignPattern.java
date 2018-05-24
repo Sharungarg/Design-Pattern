@@ -48,4 +48,3 @@ public class FactoryExampleVehicle {
 		my_vehicle.vehicleIGot();
 	}
 }
-
