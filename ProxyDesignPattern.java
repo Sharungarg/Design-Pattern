@@ -11,11 +11,6 @@ public class OpenInternet implements Internet{
  }
 }
 
-import java.util.List;
-import java.util.LinkedList;
-
-package com.sharun.Internet;
-
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;
@@ -48,6 +43,7 @@ public class ProxyInternet implements Internet {
 		}
 	}
 }
+
 
 package com.sharun.DesignPrinciple;
 
