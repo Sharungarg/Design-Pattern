@@ -19,6 +19,19 @@ class DamnWheeler implements VehicleInterface{
 	
 }
 
+public class VehicleFactory {
+	public static VehicleInterface giveVehicle(int wheels){
+		if(wheels == 2)
+			return new TwoWheeler();
+		else if(wheels == 3)
+			return new ThreeWheeler();
+		else if(wheels == 4)
+			return new FourWheeler();
+		else
+			return DamnWheeler.getWheeler();
+	}
+}
+
 
 package com.sharun.DesignPrinciple;
 
