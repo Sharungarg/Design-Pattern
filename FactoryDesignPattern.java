@@ -4,6 +4,12 @@ public interface Vehicle {
 	void vehicleIGot();
 }
 
+class TwoWheeler implements Vehicle {
+	public void vehicleIGot(){
+		System.out.println("Okay so you got a harley davidson");
+	}
+}
+
 class ThreeWheeler implements Vehicle{
 	public void vehicleIGot(){
 		System.out.println("I'm sorry but you got to settle on an Auto");
@@ -13,12 +19,6 @@ class ThreeWheeler implements Vehicle{
 class FourWheeler implements Vehicle{
 	public void vehicleIGot(){
 		System.out.println("Okay so you got a BMW");
-	}
-}
-
-class TwoWheeler implements Vehicle {
-	public void vehicleIGot(){
-		System.out.println("Okay so you got a harley davidson");
 	}
 }
 
