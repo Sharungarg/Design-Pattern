@@ -35,8 +35,8 @@ public class Sandisk implements MemoryCard {
 public class MemoryCardAdapter implements USB {
 	MemoryCard MCAdapter;
 
-	public MemoryCardAdapter(MemoryCard pendrive) {
-		this.MCAdapter = pendrive;
+	public MemoryCardAdapter(MemoryCard card) {
+		this.MCAdapter = card;
 	}
 
 	@Override
