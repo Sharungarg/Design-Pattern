@@ -57,7 +57,6 @@ public class AdapterDesignMemoryDevice {
 		b.read();
 		USB c = new MemoryCardAdapter(new Sandisk());
 		c.read();
-
 	}
 }
 
