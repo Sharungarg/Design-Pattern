@@ -28,8 +28,7 @@ public class Sandisk implements MemoryCard {
 	}
 
 	void file() {
-		System.out
-				.println("You are now accessing the songs in the memory card");
+		System.out.println("You are now accessing the songs in the memory card");
 	}
 }
 
